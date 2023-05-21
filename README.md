@@ -226,3 +226,52 @@ Go to Start Menu and type in Command Prompt, then type “whoami”, to verify y
 
 
 <h2>Join Client-1 to your domain (mydomain.com)</h2>
+
+Login to CLient-1 as the original local admin (labuser) and join it to the domain (computer will restart)
+
+<img src="https://i.imgur.com/k8Ke2mL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Copy Client-1 IP address 
+
+<img src="https://i.imgur.com/mHJVYg3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Go to Remote Desktop in Start Menu and clic it
+
+<img src="https://i.imgur.com/0JLsm48.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+CLick add PC and then enter your name(labuser) and created password (what you chose)
+
+<img src="https://i.imgur.com/4HEFokH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Right click and the Start Menu and go to System
+
+<img src="https://i.imgur.com/yEyu9P7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/SSh0Kre.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click on Rename this PC (advanced)
+
+<img src="https://i.imgur.com/dOWeOVw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click change
+
+<img src="https://imgur.com/a/VCL2TGP" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>

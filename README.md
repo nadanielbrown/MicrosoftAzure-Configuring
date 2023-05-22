@@ -391,9 +391,33 @@ Go to Start Menu and enter Command Portal and type in "whoamI" and then type in 
 
 <img src="https://i.imgur.com/XZjgvF0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Go to Start Menu and type in "Windows PowerShell ISE"
+Go to Start Menu and type in "Windows PowerShell ISE", Right Click on Windows PowerShell ISE and select Run as Administrator 
 
 <img src="https://i.imgur.com/QSL0Y0C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Open script link in a new browser
+
+<img src="https://i.imgur.com/Evs4L0u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Copy raw file 
+
+<img src="https://i.imgur.com/xJ253M5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Return back to Windows PowerShell ISE and click New Script
+
+<img src="https://i.imgur.com/Oq7KwxQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Paste the raw file
+
+<img src="https://i.imgur.com/EJ4Hlcy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click Run 
+
+<img src="https://i.imgur.com/yXobpSn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Go to Active Directory Users and Computers and right click _EMPLOYEES folder and select REFRESH
+
+<img src="https://i.imgur.com/1BN6zRl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>

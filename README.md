@@ -368,12 +368,33 @@ Open Remote Desktop Connection and go back to Domain server
 
 <img src="https://i.imgur.com/R6wdyYA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go to Start Menu and Click Windows Administrative Tools, then Click on Active Directory Users and Computers
+
+<img src="https://i.imgur.com/tK8lOk1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click on "mydomain.com, next click on the folder "Users"
+
+<img src="https://i.imgur.com/YW4uNpD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Double Click Domain Users
+
+<img src="https://i.imgur.com/dKWuHBB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click Member tab and verify correct users
+
+<img src="https://i.imgur.com/e7Ttpug.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Creating a bunch of additional users and attempt to log into Client-1 with one of the users
+
+Open DC-1(jane_admin) Remote Desktop
+Go to Start Menu and enter Command Portal and type in "whoamI" and then type in hostname, verify that your information is correct
+
+<img src="https://i.imgur.com/XZjgvF0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Go to Start Menu and type in "Windows PowerShell ISE"
+
+<img src="https://i.imgur.com/QSL0Y0C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>

@@ -419,10 +419,20 @@ Go to Active Directory Users and Computers and right click _EMPLOYEES folder and
 
 <img src="https://i.imgur.com/1BN6zRl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Click on a user name and right click and copy
+
+<img src="https://i.imgur.com/IPzK36F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Next click on Account tab and copy user name logon name (ex: baba.judev)
+
+<img src="https://i.imgur.com/Cl2nys3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Sign out of Client-1 and then Sign back in to Client-1
+
+<img src="https://i.imgur.com/2EiULZg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2yhEtYF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Type in user name mydomain.com\baba.judev\
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>

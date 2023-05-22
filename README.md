@@ -251,12 +251,73 @@ Type in "domain.com" another box will open "Computer Name/Domain Changes" hit Ok
 <img src="https://i.imgur.com/9B0Fc6X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Need to "Set DNS Server" inside the Azure portal
-Go to Domain (wsDC01
+Go to Domain (wsDC01)
 
 <img src="https://i.imgur.com/xw9Eu2b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Click on Networking and copy the NIC Private IP
 
+<img src="https://i.imgur.com/Te7WoYu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Click on Client-1
+
+<img src="https://i.imgur.com/m9I0WNV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click Networking and then click win10-client-1598_z1
+
+<img src="https://i.imgur.com/z1h1XdI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Then go to DNS server
+
+<img src="https://i.imgur.com/1GOX5DU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Choose Custom and then enter IP Address, next hit Save. Make sure there are no spaces in front of your IP Address
+
+<img src="https://i.imgur.com/UXKGw9r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rkS5NK4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Go back to Virtural Machine and click on CLient-1
+
+<img src="https://i.imgur.com/QINsmAn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Hit Restart
+
+<img src="https://i.imgur.com/ZIkSFJx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Open Remote Desktop and enter Client-1 Public IP address and hit Connect
+
+<img src="https://i.imgur.com/2ElQ3Im.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Type in your password
+
+<img src="https://i.imgur.com/I5EGu5N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Open Command Prompt
+Type whoami, to verify user
+Type hostname, to verify username
+Type ipconfig/all, to verify DNS server
+
+<img src="https://i.imgur.com/L5r2FRa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Right click on Start Menu and go to System
+
+<img src="https://i.imgur.com/oWVCz2c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Go to Rename this PC
+
+<img src="https://imgur.com/a/VCL2TGP" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click Change
+
+<img src="https://i.imgur.com/QqCBJ32.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Check the Domain box and type in "mydomain.com" and hit OK
+
+<img src="https://i.imgur.com/mArbG8Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Type in user name and password that was created earlier for Jane as an Admin user
+
+<img src="https://i.imgur.com/o2beWIz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -266,6 +327,4 @@ Go to Domain (wsDC01
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+

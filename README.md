@@ -27,24 +27,28 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-First create a Resource Group.     
-</p>
+First Create a Resource Group.     
+
 <img src="https://i.imgur.com/pO6EEPi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/qimxeZD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Click on Create and then select the Azure virtual machine tab
 
-Next create a Virtual Network and Subnet. 
-Click on create and then select the Azure virtual machine tab
-<p>
 <img src="https://i.imgur.com/RdnP1Uf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/3EV3HxM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
  
-Select the correct Resource Group (ex: LabAct)
-Type in DC-1 for Virtual machine name
-</p>Select the Domain Controller VM(Windows Server 2022) named "DC-1.
+Create New Resource Group
 
-<img src="https://i.imgur.com/bK4wtbw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/tpuYw0C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KTwWdIa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Type in DC-1 for Virtual machine name
+Select the Domain Controller VM(Windows Server 2022 Datacenter: Azure Edition) for "Image"
+
+<img src="https://i.imgur.com/PyKrztk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Create User name and Password
+
+ <img src="https://i.imgur.com/D3s9WpS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Then you will create the Clinet VM (Windows 10) named "Client-1. Following the same steps as you did for DC-1 and click on Networking Tab, then choose most recent Virtual Network, next click Review + Create
   

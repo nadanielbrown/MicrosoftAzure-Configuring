@@ -431,13 +431,11 @@ Sign out of Client-1 and then Sign back in to Client-1
 <img src="https://i.imgur.com/2EiULZg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/2yhEtYF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Type in user name mydomain.com\baba.judev\
+Type in user name mydomain.com\baba.judev
 
-Inside of the Start Menu, go to Command Prompt and type "whoami" and "hostname"
+Inside of the Start Menu, go to Command Prompt and type "whoami" press Enter and then type "hostname" press Enter
 
 <img src="https://i.imgur.com/KMrPJsI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</h1>!!!YOU HAVE SUCCESSFULLY COMPLETED!!!</h1>
+On-premises Active Directory Deployed in the Cloud (Azure)

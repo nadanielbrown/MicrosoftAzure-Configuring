@@ -81,14 +81,48 @@ Click Next : Networking
 
 <img src="https://i.imgur.com/hxR8ZYu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Click Review + create
 
+<img src="https://i.imgur.com/RB7MmQp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Finally you will Set Domain Controller's NIC Private IP address to be static. Go to Vitural Machine tab, click on Newtworking, click on dc-156, then click on IP configurations, click on link below "Search IP configurations", change Assignment form Dynamic to Static, then click save
+ After validation has passed, click Create
+ 
+ <img src="https://i.imgur.com/s1MrAuf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ Set Domain Controller's NIC Private IP address to be static. 
+Go to Vitural Machine tab
 
+ <img src="https://i.imgur.com/WX9PvPE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click on DC-1
+
+<img src="https://i.imgur.com/cRwwF2i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ Click on Networking 
+
+ <img src="https://i.imgur.com/rmv7Fw2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ Click the link attached to Network Interface
+ 
+  <img src="https://i.imgur.com/nGffGzu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click on IP configurations
+
+<img src="https://i.imgur.com/a4f4Osy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+click on link below "Search IP configurations", 
+
+<img src="https://i.imgur.com/K45mKuH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Change Assignment form Dynamic to Static, then click save
+
+<img src="https://i.imgur.com/I4bHBbW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
 <h2>Ensure Connectivity between the client and Domain Controller </h2> 
  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 
 Login to Client-1 DC-1 and ping DC-1s IP address with ping -t (perpetual ping). 
   1. Click on Client-1 

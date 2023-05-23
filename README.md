@@ -32,18 +32,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 First create a Resource Group.     
 </p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pO6EEPi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 Next create a Virtual Network and Subnet.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RdnP1Uf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
 </p>Then create the Domain Controller VM(Windows Server 2022) named "DC-1.
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
  Click inside the box underneath of Licensing
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -433,7 +433,12 @@ Sign out of Client-1 and then Sign back in to Client-1
 <img src="https://i.imgur.com/2yhEtYF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Type in user name mydomain.com\baba.judev\
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Inside of the Start Menu, go to Command Prompt and type "whoami" and "hostname"
+
+<img src="https://i.imgur.com/KMrPJsI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>

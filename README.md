@@ -54,18 +54,6 @@ Create User name (ex: labuser) and Password
  
  <img src="https://i.imgur.com/IZozZMg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
- After validation has passed, click Create
- 
- <img src="https://i.imgur.com/s1MrAuf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- 
- Check Licensing box "I confirm" and then click Next:Disk
- 
- <img src="https://i.imgur.com/IZozZMg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- 
-Click Next:Networking
-
- <img src="https://i.imgur.com/5CBYSdZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- 
 Create the Clinet VM (Windows 10) named "Client-1. 
 Use the same Resource group (ex: AD-Lab)
 Name Virtual machine (ex: Client-1)
@@ -76,6 +64,24 @@ Image used: Windows 10 Pro, verison 21H2
 Create Username (ex: labuser) and password
  
 <img src="https://i.imgur.com/PI3BVOm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+
+ After validation has passed, click Create
+ 
+ <img src="https://i.imgur.com/s1MrAuf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ Check Licensing box "I confirm" and then click Next : Disk
+ 
+ <img src="https://i.imgur.com/IZozZMg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+Click Next : Networking
+
+ <img src="https://i.imgur.com/5CBYSdZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ Select  correct Virtual network (ex: AD-Lab-vnet)
+
+<img src="https://i.imgur.com/hxR8ZYu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 
 Finally you will Set Domain Controller's NIC Private IP address to be static. Go to Vitural Machine tab, click on Newtworking, click on dc-156, then click on IP configurations, click on link below "Search IP configurations", change Assignment form Dynamic to Static, then click save
 

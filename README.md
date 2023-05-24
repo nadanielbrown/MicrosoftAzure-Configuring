@@ -75,7 +75,7 @@ Create Username (ex: labuser) and password
  
 Click Next : Networking
 
- <img src="https://i.imgur.com/l6oPMLS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/XJ9Qodf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
  Select  correct Virtual network (ex: AD-Lab-vnet)
 
@@ -99,8 +99,8 @@ Click on DC-1
 <img src="https://i.imgur.com/cRwwF2i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
  Click on Networking 
-
- <img src="https://i.imgur.com/rmv7Fw2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ <img src="https://i.imgur.com/l6oPMLS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
  Click the link attached to Network Interface
  

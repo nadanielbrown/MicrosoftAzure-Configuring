@@ -121,6 +121,7 @@ Change Assignment form Dynamic to Static, then click save
 Double check to see if both Client-1 and DC-1 are in the same Virtual network/subnet (ex: AD-Lab-vnet/default)
 
 Click Client-1 and open it to verify
+
 Click DC-1 and open it to verify
 
 <img src="https://i.imgur.com/4bD2dMT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -128,7 +129,7 @@ Click DC-1 and open it to verify
 
 <h2>Ensure Connectivity between the client and Domain Controller </h2> 
  
-Login to Client-1 DC-1 and ping DC-1s IP address with ping -t (perpetual ping). 
+Login to Client-1 and DC-1 and ping DC-1 IP address with ping -t (perpetual ping). 
 
 Click on Client-1 
 
@@ -156,20 +157,32 @@ Select Use a different account
  
  Go back to Virutal machines 
  
-  <img src="https://i.imgur.com/TuMprsK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/TuMprsK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
  Click DC-1
  
- <img src=" https://i.imgur.com/jZa3zrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/jZa3zrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
  Copy ("DC-1) Private IP address 
- 
-  <img src="https://i.imgur.com/jZa3zrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- 
-  Return back to Remote Desktop Connection for Client-1
   
-  <img src="https://i.imgur.com/YhR25Kd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/loav9Ao.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+  Return back to Remote Desktop Connection for DC-1
   
+  <img src="https://i.imgur.com/pDklQbt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+  Paste DC-1 Public IP address and press Connect
+  
+   <img src="https://i.imgur.com/yVwsdfR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   
+ Select Use a different account
+
+ <img src="https://i.imgur.com/JT6JAAG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ Type in username and password that was created for DC-1 (ex: labuser)
+ 
+ <img src="https://i.imgur.com/60BcESB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
   Go to Start Menu, type in Command Prompt
   
  <img src="https://i.imgur.com/IPvyfU4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -188,13 +201,32 @@ Open another Remote Desktop Connection
 
 Login to the Domain Controller and Enable ICMPv4 on the local windows Firewall 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go to Start Menu and Click Server Manager
+
+<img src="https://i.imgur.com/phUICP3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Type in "Firewall" inside of the Start Menu toolbar and select "Windows Defender Firewall with Advanced Security"
+
+<img src="https://i.imgur.com/4aMsrQz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Click Inbound Rules 
+
+<img src="https://i.imgur.com/mCsia7F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Sort by Protocol
+
+<img src="https://i.imgur.com/e8IkPzM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Select "Core Networking Diagnostics - (ICMPv4-In), right click and select Enable Rule
+
+<img src="https://i.imgur.com/e8IkPzM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 Logon to the windows VM and sure it can ping the Domain Controller 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Check back CLient-1 to see the ping succeed
+Check back Client-1 to see the ping succeed
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 

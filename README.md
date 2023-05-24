@@ -223,7 +223,7 @@ Right click and select Enable Rule
 
 <img src="https://i.imgur.com/rvVQ6t2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Check back Client-1 to see the ping succeed
+Return back to Client-1 Command Prompt to see the ping working
 
 <img src="https://i.imgur.com/HLgZT9Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 

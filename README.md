@@ -141,7 +141,7 @@ Click on Client-1
 
  Go to Start Menu and open Remote Desktop Connection 
  
- <img src="https://i.imgur.com/pDklQbt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src=" https://i.imgur.com/pDklQbt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
  Type in Client-1 IP Public address and press Connect
  
@@ -197,7 +197,7 @@ Select Use a different account
   
 Open another Remote Desktop Connection 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YhR25Kd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Login to the Domain Controller and Enable ICMPv4 on the local windows Firewall 
 
@@ -217,23 +217,20 @@ Sort by Protocol
 
 <img src="https://i.imgur.com/e8IkPzM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Select "Core Networking Diagnostics - (ICMPv4-In), right click and select Enable Rule
+Select "Core Networking Diagnostics - (ICMPv4-In) and File and Printer Diagnostices (ICMPv4-In)
 
-<img src="https://i.imgur.com/e8IkPzM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Right click and select Enable Rule
 
-
-Logon to the windows VM and sure it can ping the Domain Controller 
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rvVQ6t2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Check back Client-1 to see the ping succeed
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HLgZT9Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Presss Ctrl + c and the ping will stop 
 
+<img src="https://i.imgur.com/HLgZT9Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <h2>Installl Active Directory </h2>
 
 Click Next on Installation Type 

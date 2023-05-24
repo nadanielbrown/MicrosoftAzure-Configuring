@@ -110,32 +110,38 @@ Click on IP configurations
 
 <img src="https://i.imgur.com/a4f4Osy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-click on link below "Search IP configurations", 
+Click on link below "Search IP configurations" 
 
 <img src="https://i.imgur.com/K45mKuH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Change Assignment form Dynamic to Static, then click save
 
 <img src="https://i.imgur.com/I4bHBbW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- 
+
+Double check to see if both Client-1 and DC-1 are in the same Virtual network/subnet (ex: AD-Lab-vnet/default)
+Click Client-1 and open it to verify
+Click DC-1 and open it to verify
+
+<img src="https://i.imgur.com/4bD2dMT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vh4eZdz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <h2>Ensure Connectivity between the client and Domain Controller </h2> 
  
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
-
 Login to Client-1 DC-1 and ping DC-1s IP address with ping -t (perpetual ping). 
-  1. Click on Client-1 
-  2. Copy Public IP address 
-  3. Open Remote Desktop Connection "using correct login/password"
-  4. Go back to Virutal Machines 
-  5. Click DC-1
-  6. Copy Private IP address 
-  7. Return back to Remote Desktop Connection 
-  8. Go to start and open Command Prompt 
-  9. Enter -t and paste Private IP address and then press enter
-  10. Go back to DC-1
-  11. Open another Remote Desktop Connection 
+  Click on Client-1 
+  <img src="https://i.imgur.com/4bD2dMT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  3. Copy Public IP address 
+  4. Open Remote Desktop Connection "using correct login/password"
+  5. Go back to Virutal Machines 
+  6. Click DC-1
+  7. Copy Private IP address 
+  8. Return back to Remote Desktop Connection 
+  9. Go to start and open Command Prompt 
+  10. Enter -t and paste Private IP address and then press enter
+  11. Go back to DC-1
+  12. Open another Remote Desktop Connection 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
